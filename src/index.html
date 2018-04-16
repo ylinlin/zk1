@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	 <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+	<meta http-equiv="X-UA-compatible" content="IE=edge,chrome=1.0"> 
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<link rel="stylesheet" href="icon/iconfont.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper.css">
+</head>
+<body>
+	<div class="box">
+		<header>
+			<a href="javascript:;"><i class="iconfont">&#xe6ed;</i></a>
+			<p><i class="iconfont">&#xe729;</i><input type="text" placeholder="给你推荐 菩提"></p>
+			<a href="javascript:;"><i class="iconfont">&#xe64a;</i></a>
+		</header>
+		<section id="1">
+			<div class="nav">
+				<a href="javascript:;">音乐</a>
+				<a href="javascript:;">视频</a>
+				<a href="javascript:;">电台</a>
+			</div>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/img1.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/img2.png" alt=""></div>
+					<div class="swiper-slide"><img src="img/img3.jpeg" alt=""></div>
+					<div class="swiper-slide"><img src="img/img4.jpeg" alt=""></div>
+				</div>
+			</div>
+			<div class="main">
+				<a href="javascript:;"><img src="img/1.png" alt=""><span>私人FM</span></a>
+				<a href="javascript:;"><img src="img/2.png" alt=""><span>每日推荐</span></a>
+				<a href="javascript:;"><img src="img/3.png" alt=""><span>歌单</span></a>
+				<a href="javascript:;"><img src="img/4.png" alt=""><span>排行榜</span></a>
+			</div>
+			<h1>推荐歌单></h1>
+			<div class="content">
+				<dl>
+					<dt><img src="img/c1.png" alt=""></dt>
+					<dd><p>春日偷懒漫游指南</p></dd>
+				</dl>
+				<dl>
+					<dt><img src="img/c2.png" alt=""></dt>
+					<dd><p>春日偷懒漫游指南</p></dd>
+				</dl>
+				<dl>
+					<dt><img src="img/c3.png" alt=""></dt>
+					<dd><p>春日偷懒漫游指南</p></dd>
+				</dl>
+			</div>
+			
+		</section>
+		<section id="2">
+			2
+		</section>
+		<section id="3">
+			3
+		</section>
+		<section id="4">
+			4
+		</section>
+		<footer>
+			<a href="javascript:;"><i class="iconfont">&#xe70e;</i><span>发现音乐</span></a>
+			<a href="javascript:;"><i class="iconfont">&#xe6f8;</i><span>我的音乐</span></a>
+			<a href="javascript:;"><i class="iconfont">&#xe6ea;</i><span>朋友</span></a>
+			<a href="javascript:;"><i class="iconfont">&#xe6aa;</i><span>账号</span></a>
+		</footer>
+	</div>
+	<script src="js/swiper-3.4.2.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script>
+		var mySwiper=new Swiper(".swiper-container",{
+			autoplay:3000,
+		})
+	</script>
+	<script>
+		$(function(){
+			$("footer>a").click()
+		})
+	</script>
+</body>
+</html>
